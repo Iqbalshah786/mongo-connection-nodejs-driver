@@ -1,6 +1,6 @@
 # MongoDB Connection with Node.js Driver
 
-This repository demonstrates how to connect to MongoDB using the Node.js MongoDB driver.
+This repository demonstrates how to connect to MongoDB using the MongoDB Node.js driver.
 
 ## Installation
 
