@@ -9,6 +9,8 @@ const connectToDatabase = async () => {
   try {
     await client.connect();
     console.log(`Connected to ${dbname} database`);
+    const dbs = await client.db().admin().listDatabases();
+    console.table(dbs.databases);
   } catch (error) {
     console.log("Error connecting to database", error);
   }
